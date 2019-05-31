@@ -5,3 +5,21 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.list-container{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  background:rgba(51, 170, 51, .1)
+}
+
+
+.character-card{
+  box-sizing: border-box;
+  background:rgba(239, 248, 239, .5);
+  width:50%;
+}
+
+.character-card ul li{
+  list-style:none;
+}
